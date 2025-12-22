@@ -1,6 +1,5 @@
 <!-- SPDX-License-Identifier: PolyForm-Internal-Use and TEOS-Sovereign-Notice -->
 # 🏛 TEOS Egypt — Compliance Kit
-
 [![License](https://img.shields.io/badge/license-PolyForm%20Internal%20Use-blue)](LICENSES/PolyForm_Internal_Use.md)
 [![Python Version](https://img.shields.io/badge/python-3.11+-blue)](https://www.python.org/)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/Elmahrosa/TEOS-Egypt-Compliance-Kit/ci.yml?branch=main)](https://github.com/Elmahrosa/TEOS-Egypt-Compliance-Kit/actions)
@@ -206,6 +205,3 @@ Positioning Egypt as a **global exporter of governance infrastructure**, with co
 * Ready‑to‑adopt
 * Legally defensible
 * Revenue‑tested
-
-```
-
