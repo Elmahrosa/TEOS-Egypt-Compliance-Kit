@@ -1,0 +1,1 @@
+# Stripe session script stub
