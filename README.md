@@ -1,11 +1,9 @@
 <!-- SPDX-License-Identifier: PolyForm-Internal-Use and TEOS-Sovereign-Notice -->
 # 🏛 TEOS Egypt — Compliance Kit
+
 [![License](https://img.shields.io/badge/license-PolyForm%20Internal%20Use-blue)](LICENSES/PolyForm_Internal_Use.md)
 [![Python Version](https://img.shields.io/badge/python-3.11+-blue)](https://www.python.org/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Elmahrosa/TEOS-Egypt-Compliance-Kit/ci.yml?branch=main)](https://github.com/Elmahrosa/TEOS-Egypt-Compliance-Kit/actions)
-[![Lint Status](https://img.shields.io/github/actions/workflow/status/Elmahrosa/TEOS-Egypt-Compliance-Kit/lint.yml?branch=main)](https://github.com/Elmahrosa/TEOS-Egypt-Compliance-Kit/actions)
-[![Docker](https://img.shields.io/docker/v/teosegypt/compliance-kit?logo=docker&label=Docker%20Image)](https://hub.docker.com/r/teosegypt/compliance-kit)
-[![PyPI](https://img.shields.io/pypi/v/teosegypt-compliance-kit?logo=python)](https://pypi.org/project/teosegypt-compliance-kit)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Elmahrosa/TEOS-Egypt-Compliance-Kit/ci.yml?branch=main)](https://github.com/Elmahrosa/TEOS-Egypt-Compliance-Kit/actions/workflows/ci.yml)
 
 **AI‑Powered Compliance & Governance Infrastructure**  
 *Sovereign‑Grade, Regulator‑Safe, Revenue‑Positive*
@@ -38,10 +36,9 @@ It is **field‑tested** with live automation flows: Stripe → Webhook → GitH
 ```bash
 git clone https://github.com/Elmahrosa/TEOS-Egypt-Compliance-Kit.git
 cd TEOS-Egypt-Compliance-Kit
-````
+```
 
 ### 2️⃣ Backend Setup
-
 ```bash
 cd backend
 pip install -r requirements.txt
@@ -51,12 +48,10 @@ python app.py
 ```
 
 ### 3️⃣ Landing Page
-
-* Deploy `landing/index.html` via Vercel, Netlify, or any static hosting
-* Ensure Stripe public key is set in `<script>` tag
+- Deploy `landing/index.html` via Vercel, Netlify, or any static hosting  
+- Ensure Stripe public key is set in `<script>` tag  
 
 ### 4️⃣ Automation Testing
-
 ```bash
 cd automation-scripts
 python stripe_create_session.py
@@ -69,17 +64,17 @@ python simulate_webhook.py
 
 ```mermaid
 flowchart LR
-    A[User selects tier] --> B[Stripe Checkout]
-    B --> C{Payment Successful?}
-    C -->|Yes| D[Stripe Webhook]
-    D --> E{Tier Logic}
-    E -->|Starter| F[GitHub invite (read-only)]
-    E -->|Professional| G[GitHub invite + commercial folder]
-    E -->|Institutional| H[Manual contract + private fork]
-    F --> I[Starter onboarding email]
-    G --> J[Professional onboarding email]
-    H --> K[Institutional onboarding email]
-    I --> L[Access granted]
+    A["User selects tier"] --> B["Stripe Checkout"]
+    B --> C{"Payment Successful?"}
+    C -->|Yes| D["Stripe Webhook"]
+    D --> E{"Tier Logic"}
+    E -->|Starter| F["GitHub invite (read-only)"]
+    E -->|Professional| G["GitHub invite + commercial folder"]
+    E -->|Institutional| H["Manual contract + private fork"]
+    F --> I["Starter onboarding email"]
+    G --> J["Professional onboarding email"]
+    H --> K["Institutional onboarding email"]
+    I --> L["Access granted"]
     J --> L
     K --> L
 ```
@@ -90,22 +85,22 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    subgraph El-Mahrosa Sovereign System
-        A[Compliance Kit] --> B[Treasury & Token Oversight]
-        A --> C[SDG Impact Mapping]
-        A --> D[Contributor Badges & Identity]
-        A --> E[AI-Assisted Documentation Engine]
+    subgraph "El-Mahrosa Sovereign System"
+        A["Compliance Kit"] --> B["Treasury & Token Oversight"]
+        A --> C["SDG Impact Mapping"]
+        A --> D["Contributor Badges & Identity"]
+        A --> E["AI-Assisted Documentation Engine"]
     end
 
-    subgraph Compliance Kit
-        F[Stripe Checkout] --> G[Webhook Backend]
-        G --> H{Tier Logic}
-        H -->|Starter| I[Read-only Repo Access]
-        H -->|Professional| J[Commercial Repo Access]
-        H -->|Institutional| K[Private Fork + Sovereign Notice]
-        I --> L[Starter Onboarding Email]
-        J --> M[Professional Onboarding Email]
-        K --> N[Institutional Onboarding Email]
+    subgraph "Compliance Kit"
+        F["Stripe Checkout"] --> G["Webhook Backend"]
+        G --> H{"Tier Logic"}
+        H -->|Starter| I["Read-only Repo Access"]
+        H -->|Professional| J["Commercial Repo Access"]
+        H -->|Institutional| K["Private Fork + Sovereign Notice"]
+        I --> L["Starter Onboarding Email"]
+        J --> M["Professional Onboarding Email"]
+        K --> N["Institutional Onboarding Email"]
     end
 ```
 
@@ -143,48 +138,42 @@ TEOS-Egypt-Compliance-Kit/
 ---
 
 ## ⚖️ Licensing
-
-* **Starter:** PolyForm Internal Use
-* **Professional:** PolyForm Commercial — Attribution Required
-* **Institutional:** TEOS Sovereign Notice — Private Fork & White‑Label Options
+- **Starter:** PolyForm Internal Use  
+- **Professional:** PolyForm Commercial — Attribution Required  
+- **Institutional:** TEOS Sovereign Notice — Private Fork & White‑Label Options  
 
 ---
 
 ## 📚 Documentation
-
-* `INSTITUTIONAL_BRIEF.md` — One‑page overview with diagram & tier logic
-* `ELMAHROSA_INTEGRATION_MAP.md` — How Compliance Kit integrates into sovereign system
-* `AUTOMATION_FLOW_DIAGRAM.mmd` — Mermaid diagram for Stripe → GitHub → Email
-* `TIER_LOGIC_TABLE.md` — Detailed access & licensing table
+- `INSTITUTIONAL_BRIEF.md` — One‑page overview with diagram & tier logic  
+- `ELMAHROSA_INTEGRATION_MAP.md` — How Compliance Kit integrates into sovereign system  
+- `AUTOMATION_FLOW_DIAGRAM.mmd` — Mermaid diagram for Stripe → GitHub → Email  
+- `TIER_LOGIC_TABLE.md` — Detailed access & licensing table  
 
 ---
 
 ## 🛡 Security & Conduct
-
-* `SECURITY.md` — Vulnerability reporting and handling
-* `CODE_OF_CONDUCT.md` — Professional behavior for contributors
+- `SECURITY.md` — Vulnerability reporting and handling  
+- `CODE_OF_CONDUCT.md` — Professional behavior for contributors  
 
 ---
 
 ## 🏗 CI/CD
-
-* GitHub Actions configured for CI tests and linting
-* Dockerfile and docker‑compose included for containerized deployment
-* Makefile helpers for run, docker, and basic tests
+- GitHub Actions configured for CI tests and linting  
+- Dockerfile and docker‑compose included for containerized deployment  
+- Makefile helpers for run, docker, and basic tests  
 
 ---
 
 ## 📦 Docker & PyPI
 
 Pull the prebuilt Docker image:
-
 ```bash
 docker pull teosegypt/compliance-kit:latest
 docker run -p 3000:3000 teosegypt/compliance-kit
 ```
 
 Install from PyPI:
-
 ```bash
 pip install teosegypt-compliance-kit
 ```
@@ -192,16 +181,11 @@ pip install teosegypt-compliance-kit
 ---
 
 ## 📞 Contact / Institutional Access
-
-* **Email:** [contact@teosegypt.com](mailto:contact@teosegypt.com)
-* **Demo Requests:** Schedule via email or embedded form in landing page
-
----
-
+- **Email:** contact@teosegypt.com  
+- **Demo Requests:** Schedule via email or embedded form in landing page  
 ## 🇪🇬 TEOS Egypt Vision
-
-Positioning Egypt as a **global exporter of governance infrastructure**, with compliance kits that are:
-
-* Ready‑to‑adopt
-* Legally defensible
-* Revenue‑tested
+Positioning Egypt as a **global exporter of governance infrastructure**, with compliance kits that are:  
+- Ready‑to‑adopt  
+- Legally defensible  
+- Revenue‑tested  
+```
