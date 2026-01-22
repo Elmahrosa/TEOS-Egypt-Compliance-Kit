@@ -1,33 +1,45 @@
 # NOTICE
 
-This repository is the **sovereign compliance layer**
-of the **Elmahrosa Sovereign Stack (TEOS)**.
+This repository is the **sovereign execution kernel**
+of the **TEOS / Elmahrosa Sovereign Stack**.
 
-It defines how national laws and regulatory requirements
-are enforced across all TEOS systems.
+It is responsible for translating constitutional authority,
+governance decisions, and compliance outcomes
+into enforceable system execution.
 
 ## Constitutional Authority
 
-International Civic Blockchain Constitution (single source of legitimacy):  
+All legitimacy and authority derive exclusively from:
+
+International Civic Blockchain Constitution  
 https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
 
-## Governance Stewardship Anchor
+## Governance Stewardship
 
-TEOS-FORGE:  
+Lifecycle governance and stewardship are anchored in:
+
+TEOS-FORGE  
 https://github.com/Elmahrosa/TEOS-FORGE
 
 ## License Authority
 
-TEOS Egypt Sovereign License (TESL) — canonical:  
+This repository is governed by the
+**TEOS Egypt Sovereign License (TESL)**.
+
+Canonical license (single source of truth):  
 https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE
 
-If any discrepancy exists, the canonical TESL prevails.
+No other license text may override or duplicate the TESL.
 
 ## Restriction
 
-This repository is **source-available, not open source**.  
-Unauthorized redistribution, public hosting, or commercial use is prohibited without written authorization.
+This repository is **source-available, not open source**.
+Unauthorized execution, deployment, redistribution,
+or commercial use is prohibited.
 
-## Contact
+## Authority
+
+Elmahrosa International — TEOS Egypt  
+Founder & Final Authority: Ayman Seif  
 
 📧 ayman@teosegypt.com
