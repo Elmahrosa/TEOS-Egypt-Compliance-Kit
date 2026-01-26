@@ -1,21 +1,10 @@
-﻿{
-    "status":  "development",
-    "governance":  {
-                       "framework":  "TEOS-FORGE-GLOBAL",
-                       "compliance_standard":  "Universal-DPI"
-                   },
-    "project":  "TEOS-Egypt-Compliance-Kit",
-    "version":  "1.0.0",
-    "organization":  "Elmahrosa",
-    "registry":  "https://github.com/Elmahrosa/elmahrosa-core.git"
-}
 {
   "schema": "teos.manifest.v1",
   "name": "TEOS-Compliance-Kit",
   "repo": "Elmahrosa/TEOS-Compliance-Kit",
   "role": "Core",
   "status": "active",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "authority": {
     "icbc": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution",
     "tesl_canonical": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE"
@@ -43,7 +32,8 @@
       "ICBC",
       "TESL_CANONICAL",
       "FORGE_STEWARDSHIP",
-      "JURISDICTION_MAPPING"
+      "JURISDICTION_MAPPING",
+      "UNIVERSAL_DPI_ALIGNMENT"
     ]
   },
   "audit": {
