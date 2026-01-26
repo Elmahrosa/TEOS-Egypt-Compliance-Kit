@@ -9,3 +9,56 @@
     "organization":  "Elmahrosa",
     "registry":  "https://github.com/Elmahrosa/elmahrosa-core.git"
 }
+{
+  "schema": "teos.manifest.v1",
+  "name": "TEOS-Compliance-Kit",
+  "repo": "Elmahrosa/TEOS-Compliance-Kit",
+  "role": "Core",
+  "status": "active",
+  "version": "0.1.0",
+  "authority": {
+    "icbc": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution",
+    "tesl_canonical": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE"
+  },
+  "stewardship": {
+    "teos_forge": "https://github.com/Elmahrosa/TEOS-FORGE",
+    "kernel": "https://github.com/Elmahrosa/elmahrosa-core"
+  },
+  "interfaces": {
+    "provides": [
+      "compliance.rules",
+      "jurisdictional.enforcement",
+      "policy.translation"
+    ],
+    "consumes": [
+      "governance.policies",
+      "kernel.registry",
+      "audit.events"
+    ]
+  },
+  "compliance": {
+    "jurisdictions": ["EG"],
+    "data_sensitivity": "public",
+    "controls": [
+      "ICBC",
+      "TESL_CANONICAL",
+      "FORGE_STEWARDSHIP",
+      "JURISDICTION_MAPPING"
+    ]
+  },
+  "audit": {
+    "events": [
+      "compliance.rule.added",
+      "compliance.rule.updated",
+      "compliance.violation.detected"
+    ],
+    "evidence_export": {
+      "formats": ["jsonl", "pdf"],
+      "retention_days": 365
+    }
+  },
+  "contacts": {
+    "owner": "Ayman Seif",
+    "security": "ayman@teosegypt.com"
+  }
+}
