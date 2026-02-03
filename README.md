@@ -1,211 +1,103 @@
-
 <div align="center">
-  
-  # 🛂 TEOS Egypt Compliance Kit | ELMAHROSA
 
-**Sovereign Compliance & Regulatory Enforcement Layer**
-
-
-![CI](https://github.com/Elmahrosa/TEOS-Egypt-Compliance-Kit/actions/workflows/ci.yml/badge.svg?branch=main)
+# 🛂 TEOS Compliance Kit
+### Jurisdictional Enforcement & Regulatory Oversight Layer
 
 ![Standing](https://img.shields.io/badge/Standing-Sovereign%20Compliance%20Layer-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-TESL%20Canonical-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Audit--Ready-green?style=for-the-badge)
+
+**Law precedes protocol. Governance precedes execution. Human authority precedes automation.**
 
 </div>
 
 ---
 
-## 🏛️ Constitutional Authority
-
-This repository derives its authority from the  
-**International Civic Blockchain Constitution (ICBC)** (single source of truth):
-
-https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
-
-Any implementation or use **must comply** with ICBC and TESL.
+> ⚖️ **Governance Protocol** > This kit is strictly subordinate to the **International Civic Blockchain Constitution (ICBC)**.  
+> It serves as the primary mechanism for mapping national legal obligations into binding system constraints.
 
 ---
 
-## 📍 Repository Standing
+## 🏛️ Strategic Standing
+The **TEOS Compliance Kit** is the "Enforcement Arm" of the Elmahrosa Sovereign Stack. It translates constitutional authority, national laws (such as **Egypt’s Law 151/2020**), and regulatory mandates into machine-enforceable controls. 
 
-This repository is the **official compliance and regulatory enforcement layer**
-of the **TEOS / Elmahrosa Sovereign Stack**.
+It acts as a mandatory "Compliance Gate," ensuring that no identity is verified, no payment is processed, and no data is exchanged unless it meets the specific jurisdictional requirements of the host nation.
 
-It translates **constitutional authority, national law, regulatory obligations,
-and institutional policy** into **binding, enforceable system constraints**
-applied across identity, banking, payments, AI, and civic digital infrastructure.
-
-**Authority & Steward:** Elmahrosa International — TEOS Egypt  
-**Founder:** Ayman Seif
-
----
-
-## 🔗 Authority & Stewardship (Read First)
-
-All legitimacy, governance, and enforcement authority derives from:
-
-- **International Civic Blockchain Constitution (ICBC)**  
-  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
-
-Lifecycle governance and ratification are anchored in:
-
-- **TEOS-FORGE — Governance & Stewardship Anchor**  
-  https://github.com/Elmahrosa/TEOS-FORGE
-
-License authority:
-
-- **TEOS Egypt Sovereign License (TESL)**  
-  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE
-
-This repository operates **strictly subordinate** to the above authorities.
+- **Mandate:** Jurisdictional mapping, runtime enforcement, and audit evidence emission.
+- **Authority Level:** Jurisdictional Enforcement (Chain Position #3).
+- **Core Principle:** Technology is the instrument of law, never its replacement.
 
 ---
 
 ## 📐 Standards & Framework Alignment
+TEOS is engineered for global institutional interoperability. This kit includes pre-configured mappings for:
 
-This compliance framework is designed for **institutional and governmental use**
-and aligns with internationally recognized standards and DPI frameworks.
-
-**Standards included:**
-- **ISO/IEC 27001** — Information Security Management
-- **NIST (Cybersecurity & Risk Frameworks)** — Control & assurance baselines
-- **GovStack v1.0** — Digital Public Infrastructure interoperability model
-
-**GovStack Mapping (Interoperability Reference):**  
-https://www.govstack.global/
-
-> GovStack is used as a **technical interoperability reference**,  
-> not as a source of authority.  
-> Constitutional and legal authority remains with **ICBC + TESL**.
+* **ISO/IEC 27001:** Information Security Management alignment.
+* **NIST Risk Management Framework:** Control baselines for sovereign security.
+* **GovStack v1.0:** Alignment with Digital Public Infrastructure (DPI) interoperability models.
+* **SDG Compliance:** Automated data markers for UN Sustainable Development Goal reporting.
 
 ---
 
-## 🧭 Compliance Doctrine
+## ✅ Core Functional Responsibilities
 
-**Born in Egypt for the World**  
-*Built in Egypt. Engineered for Nations. Scaled for the World.*
-
-Compliance is not optional.
-
-- Law precedes protocol  
-- Governance precedes execution  
-- Human authority precedes automation  
-
-This layer **enforces law and regulation**.  
-It does **not** invent, reinterpret, or override legal authority.
-
-AI and automation **support enforcement only**.
+| Responsibility | Institutional Value |
+| :--- | :--- |
+| **Regulatory Mapping** | Converts complex legal text into binding technical "if-then" controls. |
+| **Jurisdiction Profiles** | Allows the stack to be localized for specific national laws (e.g., Data Residency). |
+| **Runtime Enforcement** | Real-time "Allow/Block" decisions for every execution path. |
+| **Evidence Emission** | Generates "Justice-Grade" logs for national audit offices and regulators. |
+| **Revocation Hooks** | Instantly suspends non-compliant processes upon a governance signal. |
 
 ---
 
-## ✅ What This Repository Is
-
-**TEOS Egypt Compliance Kit** is the **jurisdictional enforcement layer** of TEOS.
-
-It is responsible for:
-
-- Mapping laws and regulations into technical controls
-- Enforcing regulatory requirements at runtime
-- Blocking non-compliant execution paths
-- Emitting audit-ready compliance evidence
-- Enabling country-specific jurisdiction profiles
-- Supporting regulated sovereign and institutional deployments
-
-> No TEOS system may execute regulated or sovereign actions  
-> without passing compliance checks defined here.
-
----
-
-## ❌ What This Repository Is Not
-
-- ❌ A governance authority (see **TEOS-Governance**)
-- ❌ A policy authoring body
-- ❌ A legal advisory service
-- ❌ A public or permissionless rules engine
-
----
-
-## 🔗 Mandatory Enforcement Chain
-
-All sovereign and regulated execution **must** follow this chain:
+## 🔗 The Mandatory Enforcement Chain
+Compliance is the bridge between **Policy** and **AI-Oversight**.
 
 ```text
-International Civic Blockchain Constitution (ICBC)
-            ↓
-        TEOS-FORGE
-            ↓
-     TEOS-Governance
-            ↓
- TEOS Egypt Compliance Kit  [This Repository]
-            ↓
-   AI Guard / AI Auditor (Decision Support)
-            ↓
-   Teos Sovereign System (Execution Backbone)
-            ↓
-        APIs / SDKs / Services
-````
+1. Supreme Constitution (ICBC)
+      ↓
+2. TEOS-FORGE (Stewardship Anchor)
+      ↓
+3. TEOS-GOVERNANCE (Policy Schemas)
+      ↓
+4. TEOS COMPLIANCE KIT [This Repository]
+      ↓
+5. AI-Guard & AI-Auditor (Monitoring)
+      ↓
+6. Sovereign Execution Systems
 
-Any bypass is **non-compliant, unauthorized, and invalid**.
+```
 
 ---
 
-## ⚙️ Core Responsibilities
+## 🌍 Supported Institutional Use Cases
 
-| Domain                | Responsibility                            |
-| --------------------- | ----------------------------------------- |
-| Regulatory Mapping    | Laws → policies → enforceable controls    |
-| Jurisdiction Profiles | Country-specific compliance configuration |
-| Policy Enforcement    | Runtime allow / block decisions           |
-| Compliance Gates      | Mandatory pre-execution checks            |
-| Evidence Emission     | Audit-ready logs and reports              |
-| Revocation Hooks      | Immediate suspension on violation         |
-
----
-
-## 🌍 Supported Use Cases
-
-* National digital identity systems
-* CBDC and regulated payment rails
-* Civic and governmental blockchain infrastructure
-* Government and municipal digital platforms
-* UN / SDG-aligned digital public programs
-
----
-
-## 🧠 Core Principles
-
-1. Law before automation
-2. Governance before execution
-3. Human authority before AI
-4. Accountability before scale
-5. Sovereignty before decentralization
-
----
-
-## ⚠️ Usage Notice
-
-Compliance rules defined in this repository are **binding**.
-
-Any system executing outside this compliance layer is considered
-**illegal, invalid, and unauthorized** within the TEOS ecosystem.
-
-AI systems provide **decision support only**.
-**Final authority remains human, institutional, and sovereign.**
+* **National Identity Systems:** Enforcing W3C DID and data privacy standards.
+* **Regulated Finance:** KYC/AML/CFT compliance for sovereign payment rails.
+* **Civic Infrastructure:** Managing access to municipal and smart-city registries.
+* **Impact Monitoring:** Auditable reporting for MDB and DFI-funded programs.
 
 ---
 
 ## ⚖️ License & Authority
 
-This repository is governed **exclusively** by the
-**TEOS Egypt Sovereign License (TESL)**.
+This repository is governed exclusively by the **TEOS Egypt Sovereign License (TESL)**.
 
-* **Canonical License:**
-  [https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE](https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE)
+* **Auditability:** Proprietary but Source-Available for state-level security review.
+* **AI Governance:** AI provides decision-support only. The Compliance Kit ensures that the "final word" on enforcement remains human, institutional, and sovereign.
+* **Rights Holder:** Elmahrosa International.
 
-* **Status:** Proprietary • Source-Available
+---
 
-* **Authority:** Elmahrosa International
+<div align="center">
 
-📧 [ayman@teosegypt.com](mailto:ayman@teosegypt.com)
+**Founder:** Ayman Seif
 
-🇪🇬 *Compliance engineered in Egypt — enforceable by nations worldwide.*
+**Authority:** Elmahrosa International
+
+[Regulatory Inquiry](mailto:ayman@teosegypt.com) | [Sovereign Infrastructure](https://teosegypt.com)
+
+*“Compliance engineered in Egypt. Law-governed execution for the world.”*
+
+</div>
